@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    font-family: Arial;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+header{
+
+    padding: 15px;
+    text-align: center;
+    background-color: #484848;
+}
+nav{
+
+   
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 400px;
+
+}
+nav ul{
+position: relative; 
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+      
+}
+nav ul li a{
+
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+
+}
+
+#heroImage{
+    float: right;
+    width: 82%;
+padding-top: 40px;  
+    
+}
+
+#logo{
+    /* display: inline-block; */
+    float: left ;
+    margin-left: 50px;
+    margin-right: 0;
+}
+/* .Nav{
+    padding-right: 100px;
+} */
+.centerd{
+/* padding-left: 40px; */
+padding: 12.4px;
+padding-top: 30px;
+}
+#centerdpic{
+    margin-left: 260px;
+    
+}
+
+.thirdClass{
+float: left;
+padding-left: 272px;
+padding-top: 10px;
+
+}
+p{
+    float: right;
+   width: 49%;
+   padding-top: 15px;
+   margin-left: 10px;
+}
+
+/* w3school.com */
+.button{    
+
+background-color: grey;
+border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 23px;
+  transition-duration: 350ms;
+  
+
+}
+.button:hover {
+    background-color: red; /* Green */
+    color: white;
+  }
+/* w3school.com */
+footer p{
+    clear: both;
+    padding: 50px;
+    margin: 0px;
+    text-align: center;
+    background-color: #ddd;
+    margin-top: 100px;
+    width: 100%;
+
+}
+#scroll{
+height: 150px;    
+    overflow: scroll;
+}
